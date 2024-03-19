@@ -1,10 +1,5 @@
 from django.http import HttpResponse
   
 def index(request):
-    return HttpResponse("Главная")
+    return HttpResponse("Hello METANIT.COM", headers={"SecretCode": "21234567"})
  
-def about(request):
-    return HttpResponse("О сайте")
- 
-def contact(request):
-    return HttpResponse("Контакты")
