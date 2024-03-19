@@ -1,0 +1,5 @@
+/.venv
+grafy/grafy/__pycache__
+grafy/graph/__pycache__
+grafy/graph/migrations
+grafy/db.sqlite3
